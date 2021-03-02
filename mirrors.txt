@@ -1,0 +1,3 @@
+https://git.egeg.fun/cofob/mp3tomic
+https://notabug.org/cofob/mp3tomic
+https://github.com/cofob/mp3tomic
