@@ -58,7 +58,8 @@ class App(QtWidgets.QMainWindow):
         if os.path.isdir(path):
             for i in os.listdir(path):
                 if os.path.isfile(os.path.join(path, i)):
-                    self.ui.listWidget.addItem(i)
+                    if i.endswith('.mp3'):
+                        self.ui.listWidget.addItem(i)
 
     def changed_volume(self, val):
         self.volume = val
