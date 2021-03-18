@@ -5,16 +5,16 @@ from pygame import mixer
 class Player:
     def __init__(self, device='CABLE Input (VB-Audio Virtual Cable)'):
         self.device = device
-        self.volume = 100
+        self.volume = 10
 
     def set_volume(self, val):
         self.volume = val+1
 
     def play(self, file):
         mixer.init(devicename=self.device)
-        mixer.music.set_volume(self.volume)
         mixer.music.load(file)
         mixer.music.play()
+        mixer.music.set_volume(self.volume)
 
     @staticmethod
     def stop():
