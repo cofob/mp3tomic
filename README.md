@@ -25,4 +25,4 @@ BTC - bc1qnqrfq4qu9f678rx8a86my9nn29arugxq7dpdcx
 
 QIWI - [тык](https://qiwi.com/n/egter)
 
-(за другими способами в [ЛС](https://t.me/parapampamarapam))
+(за другими способами в [ЛС](https://t.me/cofob))
